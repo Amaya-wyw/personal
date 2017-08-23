@@ -1,0 +1,877 @@
+@charset "utf-8";
+/*-------------------------------首页pc端样式---------------*/
+/*---------------------头部----------------------*/
+@media screen and (min-width:900px){
+	header{
+	width:1200px;
+	height:90px;
+	margin:0 auto;
+	background: #40bad2;
+}
+header a img{
+	margin:28px 50px 0 28px;
+}
+header span{
+	color:#fff;
+	font-size: 18px;
+}
+/*------------------------主体--------------------*/
+.main{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.main .left{
+	float:left;
+	width:270px;
+	padding-bottom:4000px;
+	margin-bottom:-4000px; 
+	background: #d1eef4;
+	border-right: 1px solid #40bad2；
+}
+.main .left a img{
+	margin:35px;
+}
+.main .left nav ul li{
+	position:relative;
+	padding-left: 44px;
+	color:#333;
+	font-size:18px ;
+	line-height: 54px;
+}
+.main .left nav ul li a i{
+	float:left;/*为了不让i标签撑大li*/
+	display:inline-block;
+	margin:16px 0px 0 0;
+	width:40px;
+	height:22px ;
+	font-size:24px ;
+}
+/*nav ul li.act i{
+	background: url("../images/index04.png") no-repeat;
+}
+nav ul li.li2 i{
+	background: url("../images/index05.png") no-repeat;
+}
+nav ul li.li3 i{
+	background: url("../images/index06.png") no-repeat;
+}
+nav ul li.li4 i{
+	background: url("../images/index07.png") no-repeat;
+}
+nav ul li.li5 i{
+	background: url("../images/index08.png") no-repeat;
+}*/
+.main .left nav ul li.act a,.main .left nav ul li:hover a{
+	color:#fff;
+}
+.main .left nav ul li.act,.main .left nav ul li:hover{
+	background: #40bad2;
+	color:#fff;
+}
+.main .left nav ul li.act:after,.main .left nav ul li:hover:after{
+	position:absolute;
+	left:100%;
+	bottom:17px;
+	display: block;
+	content:"";
+	width:0;
+	height:0;
+	border:10px solid transparent;
+	border-left-color: #40bad2;
+}
+.main .right{
+	float: left;
+	width:930px;
+	padding:30px 0 30px 30px ;
+}
+.right section{
+	font-size: 0;
+}
+.right section h1{
+	margin:30px 0 22px  0px;
+	font-size: 18px;
+	/*line-height: 80px;*/
+}
+/*.right section h1 i{
+	display: inline-block;
+	width:22px;
+	height:22px;
+	margin-right: 20px;
+}*/
+.right section a img{
+	margin-right: 20px;
+}
+.right section a .img4{
+	margin-right:0px;
+}
+/*------------------about主体--------------------------*/
+.right ul{
+	height:30px;
+	border-bottom: 1px solid #efefef;
+}
+.right ul li{
+	float: left;
+	color:#72b7bc;
+	font-size:14px;
+	font-weight: 700;
+	margin-right: 4px;
+}
+.right ul li a{
+	color:#72b7bc;
+}
+.about .right article h1{
+	color:#007e86;
+	font-size: 36px;
+	font-weight: 700;
+}
+.about .right article p{
+	margin-top: 40px;
+	color:#a1a1a1;
+	font-size: 14px;
+	line-height: 30px;
+}
+.about .right article{
+	float:left;
+	width:580px;
+}
+.about .right aside{
+	float:left;
+	margin: 26px 0 0 60px;
+}
+.right aside a{
+	display: block;
+	margin-bottom: 20px;
+}
+/*-------------------------------about主体结束-------------------*/
+
+/*------------------details主体--------------------------*/
+.details .right article{
+	float:left;
+	width:624px;
+}
+.details .right article .det{
+	margin-top:40px;
+	width:600px;
+	height:70px;
+	border-bottom: 1px dotted #000;
+	background: none;
+}
+.details .right article .det h1{
+	text-align: center;
+	color:#007e86;
+	font-size: 24px;
+}
+.details .right article .det span{
+	text-align: center;
+	color:#a93c0b;
+	font-size: 12px;
+}
+.details .right article .det span.clock{
+	padding:0 18px 0 122px;
+}
+.details .right article img{
+	margin:15px 0 0px 0;
+}
+.details .right article p{
+	padding:24px 0 70px 0px;
+	margin-bottom: 18px;
+	color:#a1a1a1;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom:1px dotted #000;
+}
+.details .right article div{
+	line-height: 30px;
+}
+.details .right article div img{
+	margin:0;
+}
+.details .right article div p{
+	float:left;
+	margin:0;
+	padding:0;
+	color:#a1a1a1;
+	font-size: 14px;
+	border:none;
+}
+.details .right article div a{
+	float:left;
+	color:#72b7bc;
+	font-size: 14px;
+}
+
+.details .right aside{
+	float:left;
+	margin: 26px 0 0 36px;
+}
+.details .right aside p{
+	margin-bottom: 30px;
+	color:#007e86;
+	font-size: 14px;
+	font-weight: 700;
+}
+/*-------------------------------details主体结束-------------------*/
+
+/*------------------album主体--------------------------*/
+.album .right figure{
+	float:left;
+	margin:28px 20px 0 0;
+}
+.album .right figure figcaption{
+	text-align: center;
+	margin-top: 20px;
+	color:#333;
+	font-size: 14px;
+	font-weight: 700;
+}
+.album .right .page li a{
+	color:#555;
+}
+.album .right .page li{
+	width:36px;
+	height:36px;
+	text-align: center;
+	line-height: 36px;
+	border:1px solid #ddd;
+}
+.album .right .page li.up a{
+color:#ddd;
+}
+.album .right .page li.up,
+.album .right .page li.down,
+.album .right .page li.end{
+	width:72px;
+	height:36px;
+}
+/*-------------------------------album主体结束-------------------*/
+
+/*------------------filedetails主体--------------------------*/
+.details .right article div.cont p{
+	padding:24px 0 70px 0px;
+	margin-bottom: 18px;
+	color:#a1a1a1;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom:1px dotted #000;
+}
+
+/*-------------------------------filedetails主体结束-------------------*/
+/*------------------file主体--------------------------*/
+.fildetail .right .link{
+	height:74px;
+}
+.fildetail .right .link li a{
+	color:#007e86;
+	font-size: 14px;
+}
+.fildetail .right .link li{
+	color:#afb0b0;
+	font-size: 12px;
+}
+.fildetail .right .link  li.one{
+	float: right;
+}
+/*-------------------------------file主体结束-------------------*/
+
+
+/*-------------------------------首页pc端样式结束---------------*/
+/*-------------------------------footer 公共pc端样式---------------*/
+footer{
+	width:1200px;
+	margin:0 auto;
+}
+footer .links{
+	line-height: 68px;
+	text-align: center;
+	color:#666;
+	font-size: 18px;
+	background: #d9f1f6;
+}
+.links a{
+	padding:10px  0px 0 34px ;
+}
+.links a i{
+	padding-right: 10px;
+	font-size: 30px;
+}
+footer span{
+	display: block;
+	line-height: 68px;
+	text-align: center;
+	color:#a2a2a2;
+	font-size: 12px;
+}
+}
+
+
+/*----------------------------手机端样式-------------------------*/
+@media screen and (max-width:899px){
+	header{
+		text-align: center;
+	}
+	header a{
+		display:block;
+		/*width:100%;*/
+		height:.9rem;
+		background:#40bad2;
+	}
+	header a img{
+		width:2.38rem;
+		margin-top: .3rem;
+	}
+	header span{
+		display: block;
+		line-height:1rem ;
+		color:#0ba7b1;
+		font-size:.18rem; 
+	}
+
+/*-------------------------index开始---------------------*/
+	.no-phone{
+	display: none;
+	}
+	.main .left a img{
+		display: block;
+		height:4.26rem;
+		overflow:hidden;
+	}
+	.main .left a img{
+		width:100%;
+	}
+	.main .left nav ul a{
+		height:1.4rem;
+	}
+	.left nav ul li{
+		float:left;
+		width:20%;
+		line-height: 1.3rem;
+		font-size: .36rem;
+		text-align: center;
+	}
+	.main .left nav ul li.act i,.main .left nav ul li:hover i{
+		color:#ff3b60;
+	}
+	.right a img{
+		width:100%;
+	}
+	.right section h1{
+		width:100%;
+		line-height: 1.15rem;
+		text-align: center;
+		font-size: .18rem;
+	}
+	.right section{
+		font-size: 0;
+	}
+	.right section h1 a{
+		font-size: .18rem;
+		margin-right: .1rem;
+		color:#333;
+	}
+	.right section a img{
+		width:45%;
+	}
+	.right section a.pic{
+		padding-left: .24rem;
+	}
+/*-------------------------index结束---------------------*/
+/*--------------------------------------------------------------------*/
+/*-------------------------album开始---------------------*/
+header span.no-album,
+.album .left a img,
+.album .right ul{
+	display: none;
+}
+.album .right figure{
+	padding:.25rem .15rem .25rem .15rem;
+}
+.album .right figure img{ 
+	width:100%;
+}
+.album .right figure figcaption{
+	color:#333;
+	font-size: .3rem;
+}
+.album .right .page .up,
+.album .right .page .up{
+	display: block;
+}
+/*-------------------------album结束---------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-------------------------about开始---------------------*/
+header span.no-album,
+.about .left a img,
+.about .right ul{
+	display: none;
+}
+.about .right article h1{
+	display: block;
+	width:100%;
+	height:.9rem;
+	color:#007e86;
+	font-size: .48rem;
+	text-align: center;
+	background: #d1eef4;
+}
+.about .right article div{
+	padding:.18rem;
+	margin:.18rem;
+	background: #f3f3f3;
+}
+.about .right article p{
+	margin-bottom: .32rem;
+	color:#a1a1a1;
+	font-size: .28rem;
+}
+.about .right aside{
+	margin:.18rem;
+}
+.about .right aside a img{
+	width:100%;
+	margin-bottom:.18rem;
+}
+/*-------------------------about结束---------------------*/
+
+/*-----------------------------------------------------------------------------*/
+/*-------------------------details开始---------------------*/
+header span.no-details,
+.details .left a img,
+.details .right ul,
+.details .right article header,
+.details .right article div.down,
+.details .right aside{
+	display: none;
+}
+.details .right article img{
+	width:100%;
+	padding:.15rem;
+}
+.details .right article p{
+	padding:.15rem;
+	color:#919191;
+	font-size:.3rem; 
+}
+/*-------------------------details结束---------------------*/
+
+/*-----------------------------------------------------------------------------*/
+/*-------------------------filedetails开始---------------------*/
+.details .right article .cont{
+	padding:.6rem .3rem;
+	margin:.15rem;
+	background: #f3f3f3;
+}
+.details .right article .cont header{
+	display: block;
+}
+.details .right article .cont header h1{
+	text-align: left;
+	color:#007e86;
+	font-size:.34rem;
+}
+.details .right article .cont header .clock,
+.details .right article .cont header .heart{
+	float:left;
+	text-align: left;
+	height:.7rem;
+	color:#a93c0b;
+	font-size: .12rem;
+}
+.details .right article .cont header .heart{
+	padding-left: .4rem;
+}
+.details .right article .filedown a img{
+	display: none;
+}
+.details .right article .filedown  p{
+	color:#959595;
+	font-size: .14rem;
+}
+.details .right article .filedown  .link{
+	color:#72b7bc;
+	font-size: .14rem;
+	text-align: center;
+	line-height: .6rem;
+}
+.details .right article .filedown  p,
+.details .right article .filedown .link{
+	float:left;
+}
+/*-------------------------filedetails结束---------------------*/
+
+/*-------------------------footer---------------------*/
+
+	footer{
+		margin-top: .54rem;
+	}
+	footer .links{
+		padding:.5rem 0 .76rem .4rem;
+		height:1.84rem;
+		background: #cce5e7;	
+	}
+	footer .links a{
+		display: block;
+		color:#616161;
+		font-size:.18rem;
+	}
+	footer .links a i{
+		width:.35rem;
+		height:.32rem;
+		padding-right: .1rem;
+		color:#000;
+		font-size:.3rem; 
+	}
+	footer span{
+		display: block;
+		color:#a2a2a2;
+		font-size: .12rem;
+		text-align: center;
+		line-height: 1.18rem;
+	}
+}
+
+
+	/*header{
+	width:12rem;
+	height:.9rem;
+	margin:0 auto;
+	background: #40bad2;
+}
+header a img{
+	margin:.28rem .5rem 0 .28rem;
+}
+header span{
+	color:#fff;
+	font-size: .18rem;
+}*/
+/*------------------------主体--------------------*/
+/*.main{
+	width:12rem;
+	margin:0 auto;
+	overflow:hidden;
+}
+.main .left{
+	float:left;
+	width:2.7rem;
+	padding-bottom:40rem;
+	margin-bottom:-40rem; 
+	background: #d1eef4;
+	border-right: .01rem solid #40bad2；
+}
+.main .left a img{
+	margin:.35rem;
+}
+.main .left nav ul li{
+	position:relative;
+	padding-left: .44rem;
+	color:#333;
+	font-size:.18rem ;
+	line-height: .54rem;
+}
+.main .left nav ul li a i{
+	float:left;/*为了不让i标签撑大li*/
+/*	display:inline-block;
+	margin:.16rem 0px 0 0;
+	width:.4rem;
+	height:.22rem;
+	font-size:.24rem ;
+}*/
+/*nav ul li.act i{
+	background: url("../images/index04.png") no-repeat;
+}
+nav ul li.li2 i{
+	background: url("../images/index05.png") no-repeat;
+}
+nav ul li.li3 i{
+	background: url("../images/index06.png") no-repeat;
+}
+nav ul li.li4 i{
+	background: url("../images/index07.png") no-repeat;
+}
+nav ul li.li5 i{
+	background: url("../images/index08.png") no-repeat;
+}*/
+/*.main .left nav ul li.act,.main .left nav ul li:hover{
+	background: #40bad2;
+}
+.main .left nav ul li.act:after,.main .left nav ul li:hover:after{
+	position:absolute;
+	left:100%;
+	bottom:.17rem;
+	display: block;
+	content:"";
+	width:0;
+	height:0;
+	border:.1rem solid transparent;
+	border-left-color: #40bad2;
+}
+.main .right{
+	float: left;
+	width:9.3rem;
+	padding:.30rem 0 .30rem .30rem;
+}
+.right section{
+	font-size: 0;
+}
+.right section h1{
+	margin:.30rem 0 .22rem 0px;
+	font-size: .18rem;
+	/*line-height: 80px;*/
+}
+/*.right section h1 i{
+	display: inline-block;
+	width:22px;
+	height:22px;
+	margin-right: 20px;
+	background: url("../images/index40.png") no-repeat;
+}
+.right section a img{
+	margin-right: 20px;
+}
+.right section a .img4{
+	margin-right:0px;
+}*/*/
+/*------------------about主体--------------------------*/
+/*.about .left nav ul li.li4 a i{
+	background: url("../images/index11.png") no-repeat;
+}
+.about .left nav ul li.act a i{
+	background: url("../images/index10.png") no-repeat;
+}
+.right ul{
+	height:30px;
+	border-bottom: 1px solid #efefef;
+}
+.right ul li{
+	float: left;
+	color:#72b7bc;
+	font-size:14px;
+	font-weight: 700;
+	margin-right: 4px;
+}
+.right ul li a{
+	color:#72b7bc;
+}
+.about .right article h1{
+	color:#007e86;
+	font-size: 36px;
+	font-weight: 700;
+}
+.about .right article p{
+	margin-top: 40px;
+	color:#a1a1a1;
+	font-size: 14px;
+	line-height: 30px;
+}
+.about .right article{
+	float:left;
+	width:580px;
+}
+.about .right aside{
+	float:left;
+	margin: 26px 0 0 60px;
+}
+.right aside a{
+	display: block;
+	margin-bottom: 20px;
+}*//*.about .left nav ul li.li4 a i{
+	background: url("../images/index11.png") no-repeat;
+}
+.about .left nav ul li.act a i{
+	background: url("../images/index10.png") no-repeat;
+}
+.right ul{
+	height:30px;
+	border-bottom: 1px solid #efefef;
+}
+.right ul li{
+	float: left;
+	color:#72b7bc;
+	font-size:14px;
+	font-weight: 700;
+	margin-right: 4px;
+}
+.right ul li a{
+	color:#72b7bc;
+}
+.about .right article h1{
+	color:#007e86;
+	font-size: 36px;
+	font-weight: 700;
+}
+.about .right article p{
+	margin-top: 40px;
+	color:#a1a1a1;
+	font-size: 14px;
+	line-height: 30px;
+}
+.about .right article{
+	float:left;
+	width:580px;
+}
+.about .right aside{
+	float:left;
+	margin: 26px 0 0 60px;
+}
+.right aside a{
+	display: block;
+	margin-bottom: 20px;
+}*/
+/*-------------------------------about主体结束-------------------*/
+
+/*------------------details主体--------------------------*/
+/*.details .left nav ul li.li3 a i{
+	background: url("../images/index11.png") no-repeat;
+}
+.details .left nav ul li.act a i{
+	background: url("../images/index12.png") no-repeat;
+}
+.details .right article{
+	float:left;
+	width:624px;
+}
+.details .right article .det{
+	margin-top:40px;
+	width:600px;
+	height:70px;
+	border-bottom: 1px dotted #000;
+	background: none;
+}
+.details .right article .det h1{
+	text-align: center;
+	color:#007e86;
+	font-size: 24px;
+}
+.details .right article .det img{
+	margin:0;
+	float:left;
+}
+.details .right article .det .img1{
+	padding-left: 120px;
+}
+.details .right article .det .img2{
+	padding-left: 24px;
+}
+.details .right article .det span{
+	float:left;
+	text-align: center;
+	color:#a93c0b;
+	font-size: 12px;
+}
+.details .right article img{
+	margin:15px 0 0px 0;
+}
+.details .right article p{
+	padding:24px 0 70px 0px;
+	margin-bottom: 18px;
+	color:#a1a1a1;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom:1px dotted #000;
+}
+.details .right article div{
+	line-height: 30px;
+}
+.details .right article div img{
+	margin:0;
+}
+.details .right article div p{
+	float:left;
+	margin:0;
+	padding:0;
+	color:#a1a1a1;
+	font-size: 14px;
+	border:none;
+}
+.details .right article div a{
+	float:left;
+	color:#72b7bc;
+	font-size: 14px;
+}
+
+.details .right aside{
+	float:left;
+	margin: 26px 0 0 36px;
+}
+.details .right aside p{
+	margin-bottom: 30px;
+	color:#007e86;
+	font-size: 14px;
+	font-weight: 700;
+}*/
+/*-------------------------------details主体结束-------------------*/
+
+/*------------------album主体--------------------------*/
+/*.album .left nav ul li.li2 a i{
+	background: url("../images/index11.png") no-repeat;
+}
+.album .left nav ul li.act a i{
+	background: url("../images/index45.png") no-repeat;
+}
+.album .right figure{
+	float:left;
+	margin:28px 20px 0 0;
+}
+.album .right figure figcaption{
+	text-align: center;
+	margin-top: 20px;
+	color:#333;
+	font-size: 14px;
+	font-weight: 700;
+}*/
+/*-------------------------------album主体结束-------------------*/
+
+/*------------------file主体--------------------------*/
+
+
+/*-------------------------------file主体结束-------------------*/
+/*------------------filedetail主体--------------------------*/
+/*.fildetail .right .link{
+	height:74px;
+}
+.fildetail .right .link li a{
+	color:#007e86;
+	font-size: 14px;
+}
+.fildetail .right .link li{
+	color:#afb0b0;
+	font-size: 12px;
+}
+.fildetail .right .link  li.one{
+	float: right;
+}*/
+/*-------------------------------filedetail主体结束-------------------*/
+
+
+/*-------------------------------首页pc端样式结束---------------*/
+/*-------------------------------footer 公共pc端样式---------------*/
+/*footer{
+	width:12rem;
+	margin:0 auto;
+}
+footer .links{
+	line-height: .68rem;
+	text-align: center;
+	color:#666;
+	font-size: .18rem;
+	background: #d9f1f6;
+}
+.links a{
+	padding:.1rem .1rem 0 .34rem;
+}
+.links a.a1{
+	background: url("../images/bg2.png") no-repeat;
+}
+.links a.a2{
+	background: url("../images/bg2.png")  0 -.33rem no-repeat;
+}
+.links a.a3{
+	background: url("../images/bg2.png") 0 -.66rem no-repeat;
+}
+footer span{
+	display: block;
+	line-height: .68rem;
+	text-align: center;
+	color:#a2a2a2;
+	font-size: .12rem;
+}*/

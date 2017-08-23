@@ -1,0 +1,137 @@
+@charset "utf-8";
+/*-------------------------------首页pc端样式---------------*/
+header{
+	width:1200px;
+	height:90px;
+	margin:0 auto;
+	background:#40bad2;
+}
+header a img{
+	float:left;
+	margin:30px 54px 0 28px;
+}
+header span{
+	color:#feffff;
+	font-size:18px;
+	line-height:90px
+}
+.main{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.main .left{
+	float:left;
+	width:270px;
+	padding-bottom:4000px;
+	margin-bottom:-4000px;
+	background:#d1eef4;
+	border-right:1px solid #40bad2;
+}
+.main .left a img{
+	margin:35px;
+}
+.main .left nav ul li{
+	position:relative;
+	padding-left:44px;
+	line-height:54px;
+	font-size:18px;
+	
+}
+.main .left nav ul li a{
+	color:#333;
+}
+.main .left nav ul li.act,.main .left nav ul li:hover{
+	background:#40bad2;
+}
+.main .left nav ul li.act:after,.main .left nav ul li:hover:after{
+	position:absolute;
+	left:100%;
+	bottom:17px;
+	display:"block";
+	content:"";
+	width:0;
+	height:0;
+	border:10px solid transparent;
+	border-left-color:#40bad2;
+}
+.main .left nav ul li.act a,.main .left nav ul li:hover a{
+	color:#fff;
+}
+.main .left nav ul li a i{
+	float:left;
+	margin:16px 10px 0 0;
+	display:inline-block;
+	width:27px;
+	height:27px;
+	background:url(../images/index04.png) no-repeat;
+}
+.main .left nav ul li.li2 a i{
+	background:url(../images/index05.png) no-repeat;	
+}
+.main .left nav ul li.li3 a i{
+	background:url(../images/index06.png) no-repeat;	
+}
+.main .left nav ul li.li4 a i{
+	background:url(../images/index07.png) no-repeat;	
+}
+.main .left nav ul li.li5 a i{
+	background:url(../images/index08.png) no-repeat;	
+}
+.main .right{
+	float:left;
+	width:930px;
+	padding:30px;
+
+}
+.right section{
+	font-size:0;
+}
+.right section h1{
+	line-height:80px;
+	
+}
+.right section h1 i{
+	float:left;
+	margin:28px 20px 0 0;
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(../images/index40.png) no-repeat;
+}
+.right section h1 a{
+	font-size:18px;
+	color:#333;
+}
+.right section a img{
+	width:205px;
+	margin-right:16.5px;
+}
+.right section a.nomar img{
+
+	margin-right:0px;
+}
+/*-------------------------------首页pc端样式结束---------------*/
+/*-------------------------------footer 公共pc端样式---------------*/
+
+footer{
+	width:1200px;
+	margin:0 auto;
+}
+footer .links{
+	line-height:70px;
+	font-size:18px;
+	text-align:center;
+	background:#d9f1f6;
+}
+footer .links a {	
+	display:line-block;
+	padding:10px 0 0 40px;
+	background:url(../images/bg2.png) no-repeat;
+}
+footer .links a.a2{
+	background:url(../images/bg2.png) 10px -33px no-repeat;
+}
+footer .links a.a3{
+	background:url(../images/bg2.png) 10px -66px no-repeat;
+}
